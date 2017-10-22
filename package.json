@@ -1,0 +1,32 @@
+{
+  "name": "telldus-local-auth",
+  "version": "1.0.0",
+  "description": "CLI to setup telldus local API auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikael Finstad <finstaden@gmail.com>",
+  "repository": "mifi/telldus-local-auth",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "telldus-local-auth.js"
+  ],
+  "bin": {
+    "telldus-local-auth": "telldus-local-auth.js"
+  },
+  "dependencies": {
+    "chalk": "^2.2.0",
+    "meow": "^3.7.0",
+    "node-fetch": "^2.0.0-alpha.9",
+    "opn": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
