@@ -4,7 +4,7 @@
   "description": "CLI to setup telldus local API auth",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "author": "Mikael Finstad <finstaden@gmail.com>",
   "repository": "mifi/telldus-local-auth",
