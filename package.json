@@ -1,6 +1,6 @@
 {
   "name": "telldus-local-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to setup telldus local API auth",
   "main": "index.js",
   "scripts": {
